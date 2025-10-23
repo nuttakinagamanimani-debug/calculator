@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>Calculator</h2>
+    <input type="text" readonly>
+    <div class="buttons">
+      <button class="button" onclick="removeAllVal()">C</button>
+      <button class="button" onclick="del()">⌫</button>
+      <button class="button" onclick="fillTheVal('%')">%</button>
+      <button class="button" onclick="fillTheVal('/')">÷</button>
+
+      <button class="button" onclick="fillTheVal('7')">7</button>
+      <button class="button" onclick="fillTheVal('8')">8</button>
+      <button class="button" onclick="fillTheVal('9')">9</button>
+      <button class="button" onclick="fillTheVal('*')">×</button>
+
+      <button class="button" onclick="fillTheVal('4')">4</button>
+      <button class="button" onclick="fillTheVal('5')">5</button>
+      <button class="button" onclick="fillTheVal('6')">6</button>
+      <button class="button" onclick="fillTheVal('-')">-</button>
+
+      <button class="button" onclick="fillTheVal('1')">1</button>
+      <button class="button" onclick="fillTheVal('2')">2</button>
+      <button class="button" onclick="fillTheVal('3')">3</button>
+      <button class="button" onclick="fillTheVal('+')">+</button>
+
+      <button class="button" onclick="fillTheVal('0')">0</button>
+      <button class="button" onclick="fillTheVal('.')">.</button>
+      <button class="button equal" onclick="eq()">=</button>
+    </div>
+  </div>
+
+  <script src="style.js"></script>
+</body>
+</html>
